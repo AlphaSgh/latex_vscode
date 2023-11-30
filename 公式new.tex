@@ -1,0 +1,109 @@
+\documentclass[11pt]{ctexart}  
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+$$x,y\in\mathbb{R}^n$$
+$$x^{T}y$$
+$$\left\|x\right\|$$
+$$A\otimes B$$
+$$\mathbf{1}_n=[1,\ldots,1]^T\in\mathbb{R}^n$$
+$$\mathbf{0}_n=[0,\ldots,0]^T\in\mathbb{R}^n$$
+$$\operatorname{diag}(A_1,\ldots,A_n)$$
+$$M\in\mathbb{R}^{p\times q}$$
+$$\mathbf{Null}(M)=\{x\in\mathbb{R}^{q}|Mx=0\}$$
+$$\text{Range }(M)=\{y\in\mathbb{R}^p|(\exists x\in\mathbb{R}^q)~y=Mx\}.$$
+$$\Phi:\mathbb{R}^n\to\mathbb{R}^n$$
+$$\begin{aligned}(x-y)^T(\Phi(x)-\Phi(y))\geq0.\end{aligned}$$
+$$\begin{aligned}x,y\in\mathbb{R}^n\end{aligned}$$
+$$x\neq y$$
+$$\mu>0$$
+$$\begin{aligned}(x-y)^T\left(\Phi(x)-\Phi(y)\right)\geq\mu\|x-y\|^2\end{aligned}$$
+$$x,y\in\mathbb{R}^n$$
+$$V:\mathbb{R}^n\to\mathbb{R}$$
+$$\begin{aligned}\nabla V(x)=\frac{\partial V}{\partial x}(x)\in\mathbb{R}^n\end{aligned}$$
+$$V$$
+$$\nabla V$$
+$$G_{c}$$
+$$G_{c}=(\mathcal{I},E)$$
+$$\mathcal{I}=\{1,\ldots,N\}$$
+$$\begin{aligned}E\subseteq\mathcal{I}\times\mathcal{I}\end{aligned}$$
+$$\begin{aligned}i,j\in\mathcal{I},\text{ if }(i,j)\in E\end{aligned}$$
+$$\begin{aligned}(j,i)\in E\end{aligned}$$
+$$i$$
+$$\mathbf{deg}(i)$$
+$$i,j\in\mathcal{I}$$
+$$\mathcal{N}_{i}\subset\mathcal{I}$$
+$$L\in\mathbb{R}^{N\times N}$$
+$$G_{c}$$
+$$[L]_{ij}=|\mathcal{N}_i|$$
+$$i=j$$
+$$\begin{aligned}[L]_{ij}&=-1\end{aligned}$$
+$$\begin{aligned}j\in\mathcal{N}_i\end{aligned}$$
+$$L$$
+$$\begin{aligned}L\mathbf{1}_N=\mathbf{0}_N\end{aligned}$$
+$$\lambda_{i}\left(L\right)$$
+$$\lambda_i\left(G_c\right).$$
+$$0<\lambda_2\left(L\right)\leq\cdots\leq\lambda_N\left(L\right)$$
+$$\begin{aligned}\min_{x\ne0,1_N^Tx=0}x^TLx=&\lambda_2(L)\|x\|_2^2\end{aligned}$$
+$$min_{x\neq0,1_N^Tx=0}x^T Lx=\lambda_2(L)\|x\|_2^2$$
+$$max_{x\neq0}x^T Lx=\lambda_N(L)\|x\|_2^2$$
+$$\mathcal{I}=\{1,\ldots,N\}$$
+$$G_{c}=(\mathcal{I},E)\mathrm{~or~}G_{c}$$
+$$i\in{\mathcal I}$$
+$$x_{i}\in\Omega_{i}$$
+$$\Omega_{i}\subseteq\mathbb{R}^{n_{i}}$$
+$$\Omega=\prod_{i\in\mathcal{I}}\Omega_{i}\subseteq\mathbb{R}^{n}$$
+$$n=\sum_{i\in\mathcal{I}}n_{i}$$
+$$x=(x_{i},x_{-i})\in\Omega $$
+$$x_{-i}\in\Omega_{-i}=\prod_{j\in\mathcal{I}\setminus\{i\}}\Omega_{j}$$
+$$x=[x_{1}^{T}\ldots x_{N}^{T}]^{T}\in\Omega\subseteq\mathbb{R}^{n}$$
+$$J_{i}(x_{i},x_{-i})$$
+$$J_{i}:\Omega\rightarrow\mathbb{R}$$
+$$\mathcal{G}(\mathcal{I},J_{i},\Omega_{i})$$
+$$\mathcal{G}(\mathcal{I},J_{i},\Omega_{i})$$
+$$x^{*}=(x_{i}^{*},x_{-i}^{*})\in\Omega $$
+$$\mathcal{G}$$
+$$(\forall i\in\mathcal{I})(\forall y_i\in\Omega_i)\quad J_i(x_i^*,x_{-i}^*)\leq J_i(y_i,x_{-i}^*)$$
+$$i\in\mathcal{I},\Omega_{i}=\mathbb{R}^{n_{i}}$$
+$$J_{i}:\Omega\rightarrow\mathbb{R}$$
+$$\mathcal{C}^{2}$$
+$$x_{i}$$
+$$x_{-i}\in\Omega_{-i}$$
+$$i\in{\mathcal I}$$
+$$\Omega_{i}\subset\mathbb{R}^{n_{i}}$$
+$$J_{i}:\Omega\rightarrow\mathbb{R}$$
+$$\mathcal{C}^{1}$$
+$$x_{i}$$
+$$x_{-i}\in\Omega_{-i}$$
+$$x^{*}$$
+$$\nabla_iJ_i(x_i^*,x_{-i}^*)=0,(\forall i\in\mathcal{I})$$
+$$F(x^{*})=0$$
+$$\nabla_iJ_i(x_i,x_{-i})=\frac{\partial J_i}{\partial x_i}(x_i,x_{-i})\in\mathbb{R}^{n_i}$$
+$$J_{i}(x_{i},x_{-i})$$
+$$x_{i}$$
+$$F:\Omega\rightarrow\mathbb{R}^{n}$$
+$$F(x):=[\nabla_{1}J_{1}^{T}(x_{1},x_{-1}),\ldots,\nabla_{N}J_{N}^{T}(x_{N},x_{-N})]^{T}$$
+$$J_{i}$$
+$$x_{i}$$
+$$x^{*}\in\Omega $$
+$$(x-x^{*})^{T}F(x^{*})\geq0\quad\forall x\in\Omega $$
+$$-F(x^{*})^{T}\left(x-x^{*}\right)\leq0$$
+$$-F(x^{*})\in N_{\Omega}(x^{*})$$
+$$F:\Omega\to\mathbb{R}^n$$
+$$(x-x^{\prime})^{T}\left(F(x)-F(x^{\prime})\right)>0,\forall x\neq x^{\prime}$$
+$$F:\Omega\to\mathbb{R}^n$$
+$$(x-x')^{T}\left(F(x)-F(x')\right)\geq\mu\|x-x'\|^{2},\forall x,x'\in\Omega $$
+$$\mu>0$$
+$$\|F(x)-F(x')\|\leq\theta\|x-x'\|,\forall x,x'\in\Omega $$
+$$\theta>0$$
+$$J_{i}$$
+$$x=(x_{i},x_{-i}),x'=(x_{i}',x_{-i}')$$
+$$\displaystyle\sum_{i=1}^N(x_i-x_i')^T\left(\nabla_iJ_i(x_i,x_{-i})-\nabla_iJ_i(x_i',x_{-i}')\right)>0$$
+$$x_{i},x_{i}^{\prime}\in\Omega_{i}$$
+$$x_{-i},x_{-i}^{\prime}\in\Omega_{-i}$$
+$$(x-x')^T\left(\mathbf{F}(\mathbf{x})-\mathbf{F}(\mathbf{x}')\right)\geq0,\forall\mathbf{x},\mathbf{x}'\in\Omega^N$$
+$$\|\mathbf{F}(\mathbf{x})-\mathbf{F}(\mathbf{x}')\|\leq\theta\|\mathbf{x}-\mathbf{x}'\|,\forall\mathbf{x},\mathbf{x}'\in\Omega^N$$
+$$\theta>0$$
+\end{document}
